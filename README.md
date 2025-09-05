@@ -28,14 +28,23 @@ Styling: CSS
 Version Control: Git & GitHub
 
 📂 Project Structure
+
 ecommerce-website/
+
 ├── public/             # Static files
+
 ├── src/
+
 │   ├── components/     # Reusable UI component
+
 │   ├── pages/          # Pages (Home, Cart, Checkout)
+
 │   ├── App.js          # Main React component
+
 │   ├── index.js        # Entry point
+
 ├── package.json
+
 └── README.md
 
 🚀 Getting Started

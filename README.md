@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+🛒 E-Commerce Website (React)
+📌 Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a full-featured E-commerce website built using React.js. It provides users with an intuitive interface to browse products, manage their shopping cart, and place orders. The project showcases skills in React, component-based design, state management, and responsive UI development.
 
-## Available Scripts
+✨ Features
 
-In the project directory, you can run:
+🛍️ Browse products with details (name, price, image, description)
 
-### `npm start`
+🛒 Add to cart / remove from cart
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔄 Update product quantities in the cart
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+💳 Checkout flow (dummy order placement)
 
-### `npm test`
+📱 Responsive design for mobile and desktop
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⚡ Fast rendering with React components
 
-### `npm run build`
+🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Frontend: React.js, HTML5, CSS, JavaScript 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+State Management: React Hooks 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Styling: CSS 
 
-### `npm run eject`
+Version Control: Git & GitHub
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📂 Project Structure
+ecommerce-website/
+├── public/             # Static files
+├── src/
+│   ├── components/     # Reusable UI component
+│   ├── pages/          # Pages (Home, Cart, Checkout)
+│   ├── App.js          # Main React component
+│   ├── index.js        # Entry point
+├── package.json
+└── README.md
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚀 Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/yourusername/ecommerce-website.git
+cd ecommerce-website
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2️⃣ Install dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3️⃣ Run the project
+npm start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Now, open http://localhost:3000
+ in your browser 🎉
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📸 Screenshots
+<img width="1920" height="1080" alt="Screenshot 2025-04-03 221634" src="https://github.com/user-attachments/assets/99ada1fd-3763-44a0-b0ed-b2bc24538e81" />
+<img width="1920" height="1080" alt="Screenshot 2025-04-03 221648" src="https://github.com/user-attachments/assets/8d433c0f-e506-456f-9a41-3f5307944a38" />
+<img width="1920" height="1080" alt="Screenshot 2025-04-03 221701" src="https://github.com/user-attachments/assets/1667e3d0-46b5-463c-9fd3-bdde50b57f8b" />
+<img width="1920" height="1080" alt="Screenshot 2025-04-03 221713" src="https://github.com/user-attachments/assets/d0064209-1fd9-4e52-9f21-57f355208952" />
+<img width="1920" height="1080" alt="Screenshot 2025-04-03 221724" src="https://github.com/user-attachments/assets/cd5f87d6-8e7c-4487-89ef-ed164b8fc11b" />
+<img width="1920" height="1080" alt="Screenshot 2025-04-03 221735" src="https://github.com/user-attachments/assets/050300b7-8d5b-481a-a4ad-dcc4ef54760a" />
+<img width="1920" height="1080" alt="Screenshot 2025-04-03 221750" src="https://github.com/user-attachments/assets/1e84911f-9a72-4a9b-9c99-72780b9f5933" />
+<img width="1920" height="1080" alt="Screenshot 2025-04-03 221803" src="https://github.com/user-attachments/assets/873ffed2-7e5d-4c2e-b9fa-14142c5d7af7" />
+<img width="1920" height="1080" alt="Screenshot 2025-04-03 221842" src="https://github.com/user-attachments/assets/7575445b-f663-41df-9a58-227b6f456bba" />
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+🎯 Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🔐 User authentication (login/signup)
 
-### Making a Progressive Web App
+🗄️ Real backend integration (Node.js/Express, MongoDB, Firebase, etc.)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+⭐ Wishlist feature
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📦 Order history
